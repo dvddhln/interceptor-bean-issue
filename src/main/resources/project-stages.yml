@@ -1,0 +1,3 @@
+runtime:
+  FacadeService/mp-rest/url: http://localhost:8080
+

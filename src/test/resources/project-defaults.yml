@@ -1,0 +1,10 @@
+runtime:
+  FacadeService/mp-rest/url: http://localhost:8080
+  FacadeService/Timeout/value: 1
+  FacadeService/Timeout/unit: SECONDS
+thorntail:
+  bind:
+    address: localhost
+  arquillian:
+    daemon:
+      port: 12345

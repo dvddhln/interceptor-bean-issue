@@ -1,0 +1,9 @@
+<arquillian>
+    <container qualifier="daemon" default="true">
+        <configuration>
+            <property name="host">localhost</property>
+            <property name="port">${thorntail.arquillian.daemon.port:12345}</property>
+            <property name="javaVmArguments">-Djava.util.logging.manager=org.jboss.logmanager.LogManager -Xmx1024m</property>
+        </configuration>
+    </container>
+</arquillian>
